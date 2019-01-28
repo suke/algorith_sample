@@ -4,7 +4,6 @@ def binary_search(array, key)
   low, high = 0, array.length - 1
   count = 0
   while low <= high
-    count += 1
     mid = ((low + high) / 2).ceil
     p "mid: #{mid}"
     target = array[mid]
